@@ -1,0 +1,417 @@
+:root {
+    --red: #DC051F;
+    --biege: #FFE9B7;
+    --green: #E7FFCF;
+    --gray: #D9D9D9;
+    --darkgray: #494949;
+}
+
+
+
+.header--up {
+    background-color: var(--gray);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.heading--semibold {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.heading--regular {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header--down {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 15% 1fr 1fr 1fr 1fr 15%;
+    gap: 20px;
+
+    padding: 10px;
+}
+
+.header--logo {
+    grid-area: 1/1/2/3;
+    width: 277px;
+    margin: auto;
+    padding-left: 20rem;
+    padding-right: 5rem;
+}
+
+.header--logo button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.header--adress {
+    display: grid;
+    grid-template-columns: 33px 138px;
+    gap: 10px;
+    align-items: center;
+    font: 400 14px/18px 'Montserrat', sans-serif;
+
+    width: 186px;
+}
+
+#bold--text--header,
+#bold--text--header--call,
+#bold--text--footer--street,
+#bold--text--footer--call {
+    font-weight: 600;
+}
+
+.header--telephon {
+    display: grid;
+    grid-template-columns: 29px 133px;
+    align-items: center;
+    gap: 10px;
+    margin: auto;
+    width: 184px;
+    font: 400 14px/18px 'Montserrat', sans-serif;
+}
+
+.header--button {
+    margin: auto;
+    width: 256px;
+
+
+}
+
+.header--button button {
+    width: 256px;
+    height: 37px;
+    background-color: #fff;
+    border: 2px solid var(--red);
+    border-radius: 20px;
+    font: 600 15px/18px 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.main--main {
+    display: grid;
+    grid-template-columns: 15% 1fr 1fr 15%;
+    grid-template-rows: 95% 5%;
+    padding-top: 2rem;
+}
+
+.up--left--block {
+    grid-area: 1/2/1/3;
+}
+
+
+
+.up--right--block {
+    grid-area: 1/3/1/4;
+    text-align: center;
+}
+
+.line--one {
+    font: 400 24px/35px 'Montserrat', sans-serif;
+}
+
+.line--two {
+    font: 700 50px/70px 'Montserrat', sans-serif;
+}
+
+.line--three {
+    font: 400 24px/30px 'Montserrat', sans-serif;
+    color: var(--red);
+}
+
+.up--left--block button {
+    width: 413px;
+    height: 58px;
+    background-color: var(--red);
+    color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font: 600 20px/35px 'Montserrat', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.master--class {
+    display: grid;
+    grid-template-columns: 15% 2fr 1fr 1fr 15%;
+    grid-template-rows: 16% 42% 42%;
+    background-color: var(--biege);
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.froggy {
+    position: absolute;
+    right: 0;
+    top: 27rem;
+}
+
+.master--class--heading {
+    grid-area: 1/2/2/6;
+    font: 600 36px/35px 'Montserrat', sans-serif;
+}
+
+.master--class--cat {
+    grid-area: 2/2/4/3;
+}
+
+.master--class--cat p:first-child {
+    font: 600 24px/35px 'Montserrat', sans-serif;
+}
+
+.master--class--cat p:nth-child(2) {
+    font: 500 16px/35px 'Montserrat', sans-serif;
+}
+
+.time {
+    grid-area: 2/3/3/4;
+}
+
+.age {
+    grid-area: 2/4/3/5;
+}
+
+.money-icon {
+    grid-area: 3/3/4/4;
+}
+
+.mfilm-icon {
+    grid-area: 3/4/4/5;
+}
+
+.time,
+.age,
+.money-icon,
+.mfilm-icon {
+    text-align: center;
+}
+
+
+
+.time p:last-child,
+.age p:last-child,
+.money-icon p:last-child,
+.mfilm-icon p:last-child {
+    margin: 0;
+    padding: 0;
+    font: 400 14px/25px 'Montserrat', sans-serif;
+}
+
+.time p,
+.age p,
+.money-icon p,
+.mfilm-icon p {
+    margin: 0;
+    padding: 0;
+    font: 700 24px/40px 'Montserrat', sans-serif;
+}
+
+/*3th main block*/
+
+.children--on--ms {
+    display: grid;
+    grid-template-columns: 15% 254px 112px 371px 268px 15%;
+    grid-template-rows: 8rem 298px 318px;
+    gap: 8px;
+}
+
+.children--on--ms div:first-child {
+    grid-area: 1/2/2/7;
+    font: 600 36px/35px 'Montserrat', sans-serif;
+    padding: 3rem;
+}
+
+.children--on--ms div:nth-child(2) {
+    grid-area: 2/2/3/4;
+}
+
+.children--on--ms div:nth-child(3) {
+    grid-area: 2/4/3/5;
+}
+
+.children--on--ms div:nth-child(4) {
+    grid-area: 2/5/3/6;
+}
+
+.children--on--ms div:nth-child(5) {
+    grid-area: 3/2/4/3;
+}
+
+.children--on--ms div:nth-child(6) {
+    grid-area: 3/3/4/6;
+}
+
+.why--master-class {
+    background-image: url(/week_6/practice/task_3_new_site/assets/background-why-ms.png);
+    background-color: var(--biege);
+    padding-bottom: 5rem;
+}
+
+.with--img--note img {
+    position: absolute;
+    right: 0;
+}
+
+.why--master-class p:first-child {
+    font: 600 36px/35px 'Montserrat', sans-serif;
+    padding-left: 15%;
+
+    padding-top: 3rem;
+}
+
+.why--master-class p:nth-child(2) {
+    font: 500 16px/30px 'Montserrat', sans-serif;
+    padding-left: 15%;
+    padding-right: 20%;
+}
+
+.why--master-class--foto {
+    display: grid;
+    grid-template-columns: 15% repeat(6, 155px) 15%;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: end;
+    gap: 20px;
+}
+
+.why--master-class--foto div:nth-child(1) {
+    grid-area: 1/2/2/3;
+}
+
+.why--master-class--foto div:nth-child(2) {
+    grid-area: 1/3/2/4;
+}
+
+.why--master-class--foto div:nth-child(3) {
+    grid-area: 1/4/2/5;
+}
+
+.why--master-class--foto div:nth-child(4) {
+    grid-area: 1/5/2/6;
+}
+
+.why--master-class--foto div:nth-child(5) {
+    grid-area: 1/6/2/7;
+}
+
+.why--master-class--foto div:nth-child(6) {
+    grid-area: 1/7/2/8;
+}
+
+.why--master-class--foto div:nth-child(7) {
+    grid-area: 2/2/3/3;
+}
+
+.why--master-class--foto div:nth-child(8) {
+    grid-area: 2/3/3/4;
+}
+
+.why--master-class--foto div:nth-child(9) {
+    grid-area: 2/4/3/5;
+}
+
+.why--master-class--foto div:nth-child(10) {
+    grid-area: 2/5/3/6;
+}
+
+
+.button--why-mc {
+    grid-area: 2/6/3/8;
+    padding: 5%;
+    justify-self: center;
+    align-self: center;
+
+}
+
+.button--why-mc button {
+    width: 263px;
+    height: 58px;
+    background-color: var(--red);
+    color: white;
+    font: 600 20px/35px 'Montserrat', sans-serif;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0;
+    margin: 2px 4%;
+    cursor: pointer;
+    border: none;
+
+
+}
+
+.button--why-mc div:first-child {
+    font: 400 12px/20px 'Montserrat', sans-serif;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.footer {
+    background-color: var(--darkgray);
+
+
+
+}
+
+.footer--up {
+    display: grid;
+    grid-template-columns: 15% 30% 15% 15% 10% 15%;
+    padding: 1rem 0 0 0;
+    color: white;
+}
+
+.footer--logo {
+    grid-area: 1/2/2/3;
+
+}
+
+.footer--adress {
+    grid-area: 1/3/2/4;
+    display: grid;
+    grid-template-columns: 45px 138px;
+    align-items: start;
+    justify-self: center;
+    gap: 10px;
+    width: 200px;
+    font: 400 14px/18px 'Montserrat', sans-serif;
+}
+
+
+
+.footer--call {
+    grid-area: 1/4/2/5;
+    display: grid;
+    grid-template-columns: 45px 133px;
+    align-items: start;
+    gap: 10px;
+    justify-self: center;
+    width: 200px;
+    font: 400 14px/18px 'Montserrat', sans-serif;
+}
+
+.footer--inst {
+    grid-area: 1/5/2/6;
+    justify-self: center;
+}
+
+.footer--inst button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.footer--down {
+    background-color: var(--darkgray);
+    color: #c4c4c4c4;
+    font: 400 14px/18px 'Montserrat', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #c4c4c4c4;
+}
